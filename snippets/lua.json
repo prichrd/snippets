@@ -1,0 +1,17 @@
+{
+  "note comment": {
+    "prefix": "note",
+    "body": "-- NOTE: $0",
+    "description": "Snippet for a NOTE comment"
+  },
+  "todo comment": {
+    "prefix": "todo",
+    "body": "-- TODO: $0",
+    "description": "Snippet for a TODO comment"
+  },
+  "pcall require": {
+    "prefix": "preq",
+    "body": "local has_${1:package}, $1 = pcall(require, \"$1\")\nif not has_$1 then\n\treturn\nend",
+    "description": "Snippet for a plugin require statement"
+  }
+}

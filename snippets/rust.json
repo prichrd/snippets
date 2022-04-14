@@ -1,0 +1,12 @@
+{
+  "note comment": {
+    "prefix": "note",
+    "body": "// NOTE: $0",
+    "description": "Snippet for a NOTE comment"
+  },
+  "todo comment": {
+    "prefix": "todo",
+    "body": "// TODO: $0",
+    "description": "Snippet for a TODO comment"
+  }
+}
