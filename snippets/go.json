@@ -23,5 +23,15 @@
     "prefix": "forr",
     "body": "for ${1:_, }${2:v} := range ${3:v} {\n\t$0\n}",
     "description": "Snippet for a for range loop"
+  },
+  "struct statement": {
+    "prefix": "st",
+    "body": "type $1 struct {\n\t$0\n}",
+    "description": "Snippet for a struct"
+  },
+  "interface statement": {
+    "prefix": "int",
+    "body": "type $1 interface {\n\t$0\n}",
+    "description": "Snippet for an interface"
   }
 }
